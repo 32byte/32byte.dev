@@ -38,8 +38,7 @@ const Home: NextPage = () => {
         <Container py='lg' size='sm'>
           <Group grow position='center' spacing='lg' direction='column'>
             <Paper shadow="lg" p="md" withBorder sx={(theme) => ({
-              backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],
-              minWidth: 400
+              backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0]
             })}>
               <Title order={2}><Text variant='link' inherit component="a" href='https://github.com/32byte'>Github</Text></Title>
               <Space h='sm' />
@@ -49,8 +48,7 @@ const Home: NextPage = () => {
               </Text>
             </Paper>
             <Paper shadow="lg" p="md" withBorder sx={(theme) => ({
-              backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],
-              minWidth: 400
+              backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0]
             })}>
               <Title order={2}><Text variant='link' inherit component="a" href='/blogs'>Blogs</Text></Title>
               <Space h='sm' />
