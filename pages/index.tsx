@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             <Paper shadow="lg" p="md" withBorder sx={(theme) => ({
               backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0]
             })}>
-              <Title order={2}><Text variant='link' inherit component="a" href='/blogs'>Blogs</Text></Title>
+              <Title order={2}><Text variant='link' inherit component="a" href='https://medium.com/@32byte'>Blogs</Text></Title>
               <Space h='sm' />
               <Text>
                 I occasionally write blog posts, check them out here!
